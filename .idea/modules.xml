@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/partition-dao/partition-dao.iml" filepath="$PROJECT_DIR$/partition-dao/partition-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/partition-interface/partition-interface.iml" filepath="$PROJECT_DIR$/partition-interface/partition-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/partition-provider/partition-provider.iml" filepath="$PROJECT_DIR$/partition-provider/partition-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/partition-test.iml" filepath="$PROJECT_DIR$/partition-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/partition-web/partition-web.iml" filepath="$PROJECT_DIR$/partition-web/partition-web.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="partition-dao" />
+        <module name="partition-interface" />
+        <module name="partition-provider" />
+        <module name="partition-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="partition-dao" target="1.8" />
+      <module name="partition-interface" target="1.8" />
+      <module name="partition-provider" target="1.8" />
+      <module name="partition-test" target="1.8" />
+      <module name="partition-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

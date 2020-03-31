@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.group.partitionDao.dao.SysMenuMapper">
+  <resultMap id="BaseResultMap" type="com.group.partitioninterface.entity.SysMenu">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MENU_ID" jdbcType="VARCHAR" property="menuId" />
+    <result column="PARENT_ID" jdbcType="VARCHAR" property="parentId" />
+    <result column="NAME" jdbcType="VARCHAR" property="name" />
+    <result column="MENU_LEVEL" jdbcType="INTEGER" property="menuLevel" />
+    <result column="HREF" jdbcType="VARCHAR" property="href" />
+    <result column="PERM_CODE" jdbcType="VARCHAR" property="permCode" />
+    <result column="TARGET" jdbcType="VARCHAR" property="target" />
+    <result column="TYPE" jdbcType="INTEGER" property="type" />
+    <result column="ICON" jdbcType="VARCHAR" property="icon" />
+    <result column="SEQ_NUM" jdbcType="INTEGER" property="seqNum" />
+    <result column="RENT_MODE" jdbcType="SMALLINT" property="rentMode" />
+    <result column="STATUS" jdbcType="INTEGER" property="status" />
+    <result column="REMARKS" jdbcType="VARCHAR" property="remarks" />
+    <result column="CREATE_BY" jdbcType="VARCHAR" property="createBy" />
+    <result column="CREATE_DATE" jdbcType="TIMESTAMP" property="createDate" />
+    <result column="UPDATE_BY" jdbcType="VARCHAR" property="updateBy" />
+    <result column="UPDATE_DATE" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="DEL_FLAG" jdbcType="INTEGER" property="delFlag" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+define({
+  	MENU_ID:"menuId",
+	MENU_NAME:"menuName",
+	MENU_CODE:"menuCode",
+	MENU_TYPE:"menuType",
+	URL:"url",
+	TARGET:"target",
+	ICON:"icon",
+	PARENT_ID:"parentId",
+	PARENT_IDS:"parentIds",
+	SORT:"sort",
+	LEVEL:"level",
+	REMARKS:"remarks",
+	CREATE_BY:"createBy",
+	CREATE_DATE:"createDate",
+	UPDATE_BY:"updateBy",
+	UPDATE_DATE:"updateDate",
+	DEL_FLAG:"delFlag",
+	sys_menu:"SysMenu"
+});

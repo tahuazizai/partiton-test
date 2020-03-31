@@ -1,0 +1,36 @@
+<header class="view-framework-header">
+    <div class="head-project-name">数据模型管理</div>
+    <div class="head-user-info">
+        <div class="info-main">
+            <div class="logout">
+                <i class="fa fa-sign-out"></i>
+                <span>退出</span>
+            </div>
+            <div class="split">|</div>
+            <div class="user-cont">
+                <span id="userManual" style="margin-right: 5px;cursor:pointer;">用户手册</span>
+                {{#ifCond usercode '==' '001'}}
+                <span id="updatePwrd" style="margin-right: 5px;cursor:pointer;">修改密码</span>
+                {{/ifCond}}
+                <i class="fa fa-user-o"></i>
+                <div class="user-cont-job">{{usercode}}</div>
+                <div class="user-cont-name">{{nickname}}</div>
+            </div>
+        </div>
+    </div>
+    <div class="head-nav js-menu-warp"></div>
+</header>
+<section class="view-framework-body js-sider-fold">
+    <div id="tabs-border" class="ui-tabs ui-workspace-tabs">
+        <ul class="ui-tabs-nav main-tabs-nav">
+            <li class="ui-state-home">
+                <a href="#tabs-home" class="js-home">
+                    <i class="glyphicon glyphicon-home"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="ui-tabs-panel" id="tabs-home">
+
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+define({
+  	MENU_ID:"菜单标识",
+	MENU_NAME:"菜单名称",
+	MENU_CODE:"菜单编码",
+	MENU_TYPE:"菜单类型",
+	URL:"链接地址",
+	TARGET:"链接目标",
+	ICON:"显示图标",
+	PARENT_ID:"父级标识。根节点的父级ID为0",
+	PARENT_IDS:"父级路径",
+	SORT:"排序",
+	LEVEL:"层级",
+	REMARKS:"备注信息",
+	CREATE_BY:"创建者",
+	CREATE_DATE:"创建时间",
+	UPDATE_BY:"更新者",
+	UPDATE_DATE:"更新时间",
+	DEL_FLAG:"删除标识。0：正常；1：已删除",
+	sys_menu:"SysMenu"
+});
